@@ -1,16 +1,23 @@
 <!DOCTYPE html>
     <head>
-
+        <meta charset="utf-8">
+        <title>build this website</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
-    <body style="font-family:Arial, sans-serif;">
-        <div id="main" style="position: absolute; width: 100%; top: 0;">
-            <div id="search" style="margin-top: 0; position: absolute; top: 311px; min-width: 980px; z-index: 103; width: 100%;"> 
-                <form id="tsf" action="/search" method="GET" name="search">
-                    <input maxlength="2048" type="text" spellcheck="false" title="Search" aria-label="Search">
-                </form>
+    <body>
+        <header>
+            <a href="https://www.google.com">
+                <img src="images/googlelogo.png" alt="google_logo">
+            </a>
+            <form action="#">
+                <div id="input-section">
+                    <input type="text" name="text" value="build this website">
+                    <img class="magnify" src="images/searchlogo.png">
+                </div>
+            </form>
+            <div class="notification-con name-con">
+                <img class="app-1" src="images/appslogo.png" alt="apps">
+                <img class="app-2" src="images/userlogo.png" alt="user">
             </div>
-            <div id="logo">
-                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
-            </div>
-        </div>
+        </header>
     </body>
